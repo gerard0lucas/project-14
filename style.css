@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+*{
+ margin: 0%;
+ padding: 0%;
+}
+body{
+    height:100vh;
+    background-image : url(./assets/dance.jpg);
+    background-position: 0 100%;
+    background-size:35%;
+    background-repeat:no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 35px 80px 0px 80px;
+}
+.nav-logo{
+    margin-right: auto;
+}
+.nav-logo img{
+    width: 130px;
+}
+.nav-lists{
+    list-style: none;
+    display: flex;
+    font-family: 'Doppio One', sans-serif;
+    gap: 4rem;
+    font-weight: lighter;
+    color: #949393;
+}
+.nav-line{
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    margin-right: 40px;
+}
+.content{
+    width: 64%;
+    float: right;
+}
+
+.content .crea{
+    font-size: 8rem;
+    color: transparent;
+    -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+    
+}
+.content .tivity{
+    font-size: 8rem;
+    color: #000;
+    float: right;
+}
+.c1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 90px 0 0;
+    gap: 3rem;
+}
+.media_icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: auto;
+}
+.ingd{
+    font-size: 40px;
+    color: rgb(159, 152, 152);
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.creativity{
+    width: 450px;
+}
+.check{
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 55px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.button{
+    float: right;
+    padding: 0 90px 0 0;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 25px;
+    background-color: rgb(137, 133, 133);
+    margin-left: 2px;
+}
+.dot-active{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    background-color: #000;
+      
+}
+.each{
+    display: flex;
+    gap: 1rem;
+}
+.line{
+    height: 50px;
+    width: 1px;
+    background-color: rgb(166, 163, 163);
+    margin-left: 8px;
+    margin-top: -10px;
+}
+.c2{
+    display: flex;
+    margin-top: 60px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 50px 0 20px;
+}
+.ah4{
+    font-size: 20px;
+    color: #171717;
+} 
+h4{
+    font-size: 20px;
+    color: #949393;
+}
+.d1{
+    width: 350px;
+    height: 220px;
+}
+.message h1{
+    font-size: 1rem;
+}
+.message p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.arrow img{
+    height: 120px;
+    width: 100px;
+}
